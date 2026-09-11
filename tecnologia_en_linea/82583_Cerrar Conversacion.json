@@ -1,0 +1,9 @@
+{
+  "type_functionality": "regular",
+  "model": {
+    "text": "{\"0\": {\"question\": [{\"params\": {\"name\": \"change_conversation_status\", \"params\": {\"status_action\": \"close\"}}, \"handler\": \"action\"}, {\"params\": {\"step\": 1, \"type\": \"finish\"}, \"handler\": \"goto\"}], \"block_uuid\": \"20afcd8f-271d-42c2-bb55-195a3f22d3ae\"}, \"conversation\": false}",
+    "name": "Cerrar Conversacion",
+    "positions": "[{\"x\": 0, \"y\": 0, \"z\": 2, \"id\": 0, \"goto\": {\"block\": 1}, \"step\": -1, \"type\": \"start\", \"width\": 170, \"height\": 38, \"actions\": [{\"id\": -3, \"sort\": 0, \"links\": [], \"params\": {\"params\": [], \"handler\": \"_start\"}}], \"deletable\": true}, {\"x\": 242, \"y\": -87, \"z\": 6, \"id\": 1, \"goto\": {\"block\": 2}, \"name\": \"Cambiar la etapa de la conversación\", \"step\": 0, \"type\": \"question\", \"width\": 400, \"height\": 84, \"actions\": [{\"id\": 60, \"sort\": 0, \"links\": [], \"params\": {\"params\": {\"name\": \"change_conversation_status\", \"params\": {\"status_action\": \"close\"}}, \"handler\": \"action\"}}], \"deletable\": true}, {\"x\": 706, \"y\": -142, \"z\": 10, \"id\": 2, \"step\": 1, \"type\": \"finish\", \"width\": 374, \"height\": 62, \"actions\": [{\"id\": 119, \"sort\": 0, \"links\": [], \"params\": {\"params\": [], \"handler\": \"_stop\"}}], \"deletable\": true}]",
+    "type": 2
+  }
+}

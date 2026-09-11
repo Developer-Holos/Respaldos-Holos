@@ -1,0 +1,9 @@
+{
+  "type_functionality": "regular",
+  "model": {
+    "text": "{\"0\": {\"question\": [{\"params\": {\"tag\": \"\", \"text\": \"Hola, gracias por escribirnos, que tipo de producto estas interesado.\", \"type\": \"external\", \"on_error\": null, \"recipient\": {\"type\": \"all_contacts\", \"way_of_communication\": \"over_all\"}, \"is_in_starting_block\": false, \"send_to_all_chat_sources\": true}, \"handler\": \"send_message\"}], \"block_uuid\": \"35d220f4-8c8a-4d30-b237-a28f09eeab27\"}, \"conversation\": false}",
+    "name": "Salesbot #2",
+    "positions": "[{\"x\": 0, \"y\": 0, \"z\": 2, \"id\": 0, \"goto\": {\"block\": 1}, \"step\": -1, \"type\": \"start\", \"width\": 170, \"height\": 37, \"actions\": [{\"id\": -3, \"sort\": 0, \"links\": [], \"params\": {\"params\": [], \"handler\": \"_start\"}}], \"deletable\": true}, {\"x\": -350, \"y\": 0, \"z\": 4, \"id\": -1, \"code\": \"trigger\", \"step\": -1, \"type\": \"static\", \"width\": 260, \"height\": 0, \"actions\": [], \"deletable\": true}, {\"x\": 235, \"y\": 65, \"z\": 15, \"id\": 1, \"goto\": null, \"name\": \"Enviar mensagem\", \"step\": 0, \"type\": \"question\", \"width\": 400, \"height\": 169, \"actions\": [{\"id\": 60, \"sort\": 0, \"links\": [], \"params\": {\"params\": {\"tag\": \"\", \"text\": \"Hola, gracias por escribirnos, que tipo de producto estas interesado.\", \"type\": \"external\", \"recipient\": {\"type\": \"all_contacts\", \"way_of_communication\": \"over_all\"}, \"is_in_starting_block\": false, \"send_to_all_chat_sources\": true}, \"handler\": \"send_message\"}}], \"deletable\": true}]",
+    "type": 2
+  }
+}
